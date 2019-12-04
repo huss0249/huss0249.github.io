@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 */
 
 const $instructions = document.getElementById('instructions');
-$instructions.title = "<h2>Instructions</h2>"
+$instructions.title = "<h2>Instructions: updated using github terminal</h2>"
 $instructions.description = "<p>In order to navigate using Keyboard, <strong> K </strong> key <strong>MUST</strong> be pressed to begin to the first image, then <strong>LEFT</strong> and <strong>RIGHT</strong> to move to the previous / next images. Press <strong>Enter</strong> to select the image and view it in a modal mode. Press <strong>ESC</strong> key to go back to the normal view.</p><p><strong>PLEASE DO NOT USE</strong> <strong class='disabled'>Tab</strong> OR <strong class='disabled'>SHIFT + Tab</strong> keys as I applied the functions to the LEFT and RIGHT arrow keys only </p>"
 $instructions.innerHTML = $instructions.title + $instructions.description;
 
